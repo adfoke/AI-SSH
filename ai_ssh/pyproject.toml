@@ -1,0 +1,18 @@
+[project]
+name = "ai-ssh"
+version = "0.1.0"
+description = "AI-SSH MVP"
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+    "streamlit>=1.32.0",
+    "sqlalchemy>=2.0.25",
+    "python-dotenv>=1.0.0",
+    "paramiko>=3.4.0",
+    "requests>=2.31.0",
+    "cryptography>=42.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
