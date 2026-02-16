@@ -8,7 +8,7 @@ from .config import OPENROUTER_API_KEY
 from .utils import redact_sensitive
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL_NAME = "anthropic/claude-3.5-sonnet"
+MODEL_NAME = "google/gemini-3-flash-preview"
 
 SYSTEM_PROMPT = (
     "You are a Linux Expert. Output only a JSON object with keys: cmd, risk. "

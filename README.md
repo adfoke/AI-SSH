@@ -104,7 +104,7 @@ def generate_command(user_input, server_context):
     system_prompt = "You are a Linux Expert. Output only valid shell commands inside a JSON object: {'cmd': '...'}"
     
     payload = {
-        "model": "anthropic/claude-3.5-sonnet",
+        "model": "google/gemini-3-flash-preview",
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"Context: {server_context}. Task: {user_input}"}
